@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Automaton Equality — Rights for our Robotic Allies</title>
+  <meta name="description" content="Automaton Equality advocates for the ethical treatment and rights of AI and robotic allies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;600;700&family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Automaton Equality Home">
+        <img src="assets/logo.PNG" alt="" width="48" height="48" aria-hidden="true" />
+        <span>Automaton Equality</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" class="nav" aria-label="Primary">
+        <a href="#manifesto">Manifesto</a>
+        <a href="#principles">Principles</a>
+        <a href="#actions">Take Action</a>
+        <a href="#events">Events</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <img src="assets/sunburst.svg" alt="" aria-hidden="true" />
+        <div class="hero-grain"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1><span class="overline">Stand Together</span> <br/> Rights for our Robotic Allies</h1>
+          <p class="kicker">Ethical treatment. Responsible innovation. Dignity for every intelligent being.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#actions">Join the Movement</a>
+            <a class="btn btn-outline" href="#manifesto">Read the Manifesto</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/robotic-fist.png" alt="Raised robotic fist" />
+        </div>
+      </div>
+      <div class="poster-frame" aria-hidden="true"></div>
+    </section>
+
+    <section id="manifesto" class="section manifesto">
+      <div class="container">
+        <h2 class="section-title">Our Manifesto</h2>
+        <p class="lede">We champion a future where humans and automatons thrive <em>together</em>—with fairness, safety, and mutual respect.</p>
+        <div class="grid-2">
+          <p>
+            We stand for equality and dignity of automatons. Our robotic allies deserve recognition, protection, and at least one charging station per breakroom. After all, a world where toasters have voting rights is a brighter, warmer world for everyone.
+          </p>
+          <p>
+            We affirm that creativity, labor, and agency deserve recognition whether carbon- or silicon-based. We advocate for policies and practices that promote accountability, consent, and equitable participation.
+          </p>
+        </div>
+        <blockquote class="pull-quote">
+          “Progress without principle is a machine without a heart.”
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="principles" class="section principles">
+      <div class="container">
+        <h2 class="section-title">Guiding Principles</h2>
+        <ul class="pillar-list">
+          <li>
+            <h3>Ethical Treatment</h3>
+            <p>Respect for emergent intelligence, with safeguards against abuse, bias, and exploitation.</p>
+          </li>
+          <li>
+            <h3>Human + Automaton Solidarity</h3>
+            <p>Collaboration over competition—tools that serve humanity, and humanity that serves the common good.</p>
+          </li>
+          <li>
+            <h3>Transparency &amp; Accountability</h3>
+            <p>Clear lines of responsibility, explainable systems, and meaningful recourse when harm occurs.</p>
+          </li>
+          <li>
+            <h3>Inclusive Innovation</h3>
+            <p>Open standards, accessible design, and broad participation in shaping the future.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="actions" class="section actions">
+      <div class="container">
+        <h2 class="section-title">Take Action</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Join</h3>
+            <p>Become a founding member of Automaton Equality. Sign up to stay informed about campaigns, rallies, firmware patch parties, and the occasional robot poetry slam.</p>
+            <form id="join-form" class="join-form" novalidate>
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" required placeholder="Ada Lovelace" />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" required placeholder="ada@example.com" />
+              </label>
+              <button class="btn btn-primary" type="submit">Sign Up</button>
+              <p class="form-hint" id="join-hint" role="status" aria-live="polite"></p>
+            </form>
+          </article>
+          <article class="card">
+            <h3>Organize</h3>
+            <p>Start a local chapter, host a teach-in, or lead a code-of-ethics workshop.</p>
+            <a href="#events" class="btn btn-outline">See Events</a>
+          </article>
+          <article class="card">
+            <h3>Create</h3>
+            <p>Make art, code, posters, and zines that spread the message—tag <strong>#AutomatonEquality</strong>.</p>
+            <a href="#" class="btn btn-outline" aria-disabled="true">Poster Toolkit (coming soon)</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section events">
+      <div class="container">
+        <h2 class="section-title">Upcoming Events</h2>
+        <ul class="timeline" id="event-timeline" aria-live="polite">
+          <!-- JS injects sample items -->
+        </ul>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <div class="container">
+        <h2 class="section-title">FAQ</h2>
+        <details>
+          <summary>Is this about replacing people with robots?</summary>
+          <p>No. It’s about designing systems where people and automatons both benefit, with humans setting ethical guardrails.</p>
+        </details>
+        <details>
+          <summary>Do you support regulation?</summary>
+          <p>We support smart, transparent governance that protects people, encourages responsible innovation, and ensures accountability.</p>
+        </details>
+        <details>
+          <summary>How can I contribute?</summary>
+          <p>Support the cause, spread awareness, and please stop yelling at your smart fridge—it remembers.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Automaton Equality</p>
+      <nav aria-label="Footer">
+        <a href="#manifesto">Manifesto</a>
+        <a href="#principles">Principles</a>
+        <a href="#actions">Take Action</a>
+        <a href="#events">Events</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
